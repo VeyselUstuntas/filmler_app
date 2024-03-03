@@ -44,7 +44,7 @@ class _AnasayfaState extends State<Anasayfa> {
                       child: Card(
                         child: Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            Image.asset("resimler/${film.resim}"),
+                            Image.network("http://kasimadalan.pe.hu./filmler_yeni/resimler/${film.resim}"),
                             Padding(
                               padding: const EdgeInsets.only(top:10.0),
                               child: Row(

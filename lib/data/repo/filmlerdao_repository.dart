@@ -10,7 +10,7 @@ class FilmlerDaoRepository{
     var f3 = Filmler(id: 3, ad: "Inception", resim: "inception.png", fiyat: 43);
     var f4 = Filmler(id: 4, ad: "The Hateful Eight", resim: "thehatefuleight.png", fiyat: 12);
     var f5 = Filmler(id: 5, ad: "The Pianist", resim: "thepianist.png", fiyat: 29);
-    var f6 = Filmler(id: 6, ad: "Anadoluda ", resim: "anadoluda.png", fiyat: 37);
+    var f6 = Filmler(id: 6, ad: "Anadoluda", resim: "anadoluda.png", fiyat: 37);
 
     filmListesi.add(f1);
     filmListesi.add(f2);
